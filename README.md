@@ -6,7 +6,7 @@ Projeto de chatbot com Google Gemini desenvolvido para a Imersão IA da Alura.
 
 Você já se encontrou naquela situação de sentir um incômodo ou uma dor leve e não sabia se era algo sério o suficiente para procurar um médico? Muitas vezes pensamos "ainda dá pra aguentar" e acabamos apenas postergando a decisão até a situação se agravar.
 
-Bom, o objetivo principal deste bot para Telegram é auxiliar você a tomar uma decisão mais informada sobre a necessidade de buscar atendimento médico. Através de uma conversa simples e interativa no Telegram, o bot fará perguntas relevantes sobre seus sintomas e sua condição atual. Ao final da interação, você receberá uma orientação inicial sobre se é recomendado procurar um médico o mais breve possível ou se a situação pode ser monitorada antes de tomar uma decisão.
+Bom, o objetivo principal deste bot para Telegram é auxiliar o usuário a tomar uma decisão mais informada sobre a necessidade de buscar atendimento médico. Através de uma conversa simples e interativa no Telegram, o bot fará perguntas relevantes sobre seus sintomas e sua condição atual. Ao final da interação, o usuário receberá uma orientação inicial sobre se é recomendado procurar um médico o mais breve possível ou se a situação pode ser monitorada antes de tomar uma decisão.
 
 **Importante:** Este bot oferece uma triagem inicial e **não substitui, de forma alguma, uma consulta médica profissional**. A avaliação fornecida aqui é apenas uma orientação preliminar e não deve ser considerada um diagnóstico ou recomendação de tratamento. Em caso de dúvidas persistentes ou sintomas graves, procure sempre um médico.
 
