@@ -1,6 +1,11 @@
-# ConsultaRapida_Bot
+<div align="center">
+  <img src="recursos/icone.png" alt="Icone" height="96" style="border-radius: 100%">
+  <h1>Consulta Rápida Bot</h1>
+</div>
 
-Projeto de chatbot com Google Gemini desenvolvido para a Imersão IA da Alura.
+<p align="center">
+  Projeto de chatbot com Google Gemini desenvolvido para a Imersão IA 2025 da Alura + Google.
+</p>
 
 ## Descrição do Projeto
 
@@ -20,20 +25,32 @@ Bom, o objetivo principal deste bot para Telegram é auxiliar o usuário a tomar
 
 ## Agentes
 
-- Pesquisador: pesquisa informações dos sintomas e possiveis causas no google
+- Pesquisador: pesquisa informações dos sintomas e possíveis causas no Google
 
-retorna: possiveis causas, remediações e nível de urgência do problema (se é recomendado buscar atendimento médico ou se pode monitorar um pouco antes de tomar uma decisão)
+retorna: possíveis causas, remediações e nível de urgência do problema (se é recomendado buscar atendimento médico ou se pode monitorar um pouco antes de tomar uma decisão)
 
 - Mediador: simplifica a informação recebida para retornar ao usuário
 
-retorna: informação resumida e em termos simples pede por mais informações sobre o problema se necessário, se a informação tiver boa base, identifica qual médico especialista e direciona o usuário para o médico especialista ou plantão
+retorna: informação resumida e em termos simples, pede por mais informações sobre o problema se necessário. Se a informação tiver boa base, identifica qual médico especialista e direciona o usuário para o médico especialista ou plantão.
 
-- Localizador: busca no google por médicos/consultórios ou pronto atendimentos próximos do usuário
+- Localizador: busca no Google por médicos/consultórios ou prontos atendimentos próximos do usuário
 
-retorna: médicos/consultórios ou pronto atendimentos junto a seus horários de atendimento
+retorna: médicos/consultórios ou prontos atendimentos juntamente com seus horários de atendimento
 
 ## Rodando o projeto
 
 Para rodar o projeto é necessário criar um bot no Telegram usando o `@BotFather` e pegar a API Key do bot criado
 
-No colab adicione as chaves de API do bot do Telegram e do Gemini nos secrets e depois é só rodar o bot que ja vai dar para conversar com ele
+- Use o comando `/newbot`, de um nome que o bot vai mostrar na conversa e depois um nome terminando com `_bot` que vai ser o nome que os usuários podem pesquisar.
+
+<img src="recursos/criando_bot.png" alt="Criando o bot" height="500px">
+
+- Acesse o <a href="https://colab.research.google.com/drive/1g4874cI9-JZl3zobRHQzKgO6LLdpFjD7?usp=sharing"><strong>Link do Colab</strong></a> para abrir o projeto.
+
+- No colab adicione as chaves de API do bot do Telegram `TELEGRAM_BOT_KEY` e do Gemini `GOOGLE_API_KEY` nos secrets
+
+- Agora é só apertar `Ctrl + F9` no seu teclado para rodar todas as células do projeto no colab que assim que começar a rodar a última celula ja vai dar para conversar com o bot no telegram
+
+Quando estiver rodando o bot fica assim:
+
+<img src="recursos/bot_rodando.png" alt="Bot rodando" height="100px">
